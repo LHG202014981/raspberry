@@ -3,7 +3,7 @@ CC = gcc
 CFLAGS = -Wall -O2
 LDFLAGS = -lwiringPi
 TARGET = raspberry_app
-SRC = wiringswitch.c
+SRC = wiringmotor.c
 
 # 2. 빌드 규칙 (기본: make)
 all: $(TARGET)
